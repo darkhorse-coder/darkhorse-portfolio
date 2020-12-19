@@ -7,23 +7,20 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Dmytro Lee",
+  title: "Hi all, I'm Dmytro",
+  subTitle: emoji("🚀 Software Engineer with 9 plus years of experience in requirement gathering, designing, developing, implementing, debugging, testing & deployment of Android/iOS applications, Java applications, and Web applications. Extensive experience in developing and managing Enterprise Segment as well as Public Segment Projects. Self-motivated and fast learner developer looking for position for another career."),
+  resumeLink: "https://drive.google.com/file/d/1aVQYOzOEmRBZ5yIIjD7XR5qMotYsWmhf/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/darkhorse-coder",
+  linkedin: "https://www.linkedin.com/in/dmytro-lee",
+  gmail: "dmytrolee@yandex.ru",
+  stackoverflow: "https://stackoverflow.com/users/8645651/darkhorse"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -33,9 +30,9 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly performance and interactive ios/android applications such as Lifestyle, Social Media, Utility, Games/Entertainment, Productivity, News/Information Outlets"),
+    emoji("⚡ Resonsive Web site & Progressive Web applications ( PWA ) in normal and SPA Stacks by ME(A,R,V)N such as social media system, ecommerce system, real estate system, rental system etc."),
+    emoji("⚡ Integration of third party services such as Firebase, AWS, Azure, Twilio, Socket.io, Stripe, Paypal etc.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,8 +40,44 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js-square"
     },
     {
       skillName: "css3",
@@ -55,28 +88,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "aws",
@@ -87,13 +108,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "slack",
+      fontAwesomeClassname: "fab fa-slack"
+    },
   ]
 };
 
@@ -103,25 +128,12 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
+      schoolName: "Beijing University of Technology",
+      logo: require("./assets/images/universityLogo.png"),
+      subHeader: "Bachelor's degree of Software Engineering",
+      duration: "2005 - 2010",
+      desc: "Computer and Information Sciences and Support Services",
+      descBullets: []
     }
   ]
 }
@@ -132,16 +144,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Front-end/UI",  //Insert stack or technology you have experience in
+      progressPercentage: "98%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Mobile(iOS, Android)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Back-end",
+      progressPercentage: "85%"
     }
   ]
 };
@@ -153,30 +165,43 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "Ordering Co Ltd",
+      companylogo: require("./assets/images/orderingLogo.png"),
+      date: "2016 – 2020",
+      desc: "Development and improvement for Multipurpose Orering System",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Replaced and upgraded with RestAPI / NodeJS, ExpressJS, MongoDB, Postgresql, Javascript for ordering/delivery/business apps",
+        "Development flexible and easily renewable Front-end components, multi & single vendor ordering web site and admin dashboard for business(restaurant, store, laundary store etc.)",
+        "Integrated Google maps and services, firebase, push notification, payment gateway such as Strip, Paypal, Openpay, Interswitch etc"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "iOS Developer",
+      company: "Ordering Co Ltd",
+      companylogo: require("./assets/images/orderingLogo.png"),
+      date: "2014 – 2016",
+      desc: "Develp and improvement of Ordering / Delivery / Business manager apps",
+      descBullets: [
+        "Developed and improved Multipurpose Native and Hybrid Ordering apps",
+        "Developed Delivery/Driver apps can compatible with Existing Ordering System",
+        "Developed Orders and Drivers managing applications for business managers"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Mobile Application Developer",
+      company: "Beijing Lingtu Software Technology Co Ltd",
+      companylogo: require("./assets/images/lingtuLogo.png"),
+      date: "2011 – 2014",
+      desc: "Readily embracing cutting-edge technology, I have gained an in-depth understanding of the main mobile platforms and recognize the subtle differences between each. Having helped develop a series of commercially successful apps on iOS, Android.",
+      descBullets: [
+        "Taxi/location tracking apps",
+        "Image processing/sharing apps",
+        "Coupon management app, Car selling app",
+        "Weixin Mini app/games",
+        "Utility apps such as Calendar, Calculator"
+      ]
+    }
   ]
 };
 
@@ -185,7 +210,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "darkhorse-coder", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
