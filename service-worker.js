@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/darkhorse-coder/darkhors.github.io/precache-manifest.b4de65a2e428d1ae3dd2430eb7064165.js"
+  "/darkhorse-coder/darkhors.github.io/precache-manifest.3ceff76943deeca0f654ecdd1723f743.js"
 );
 
 self.addEventListener('message', (event) => {
