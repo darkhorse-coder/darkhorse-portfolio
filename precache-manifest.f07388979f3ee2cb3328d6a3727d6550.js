@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "315bf3ebeb1f1e5fcb81472d9f09550a",
+    "revision": "c9ee6bfcfd77f91c45600bc1dfe38198",
     "url": "/darkhorse-coder/darkhors.github.io/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/darkhorse-coder/darkhors.github.io/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "2ab58486b7cf7fefb896",
-    "url": "/darkhorse-coder/darkhors.github.io/static/css/main.a8054da0.chunk.css"
+    "revision": "b7c967590da913a544f2",
+    "url": "/darkhorse-coder/darkhors.github.io/static/css/main.0f9bddd1.chunk.css"
   },
   {
     "revision": "2e997489e74cd0f87912",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/darkhorse-coder/darkhors.github.io/static/js/4.5cebbdf4.chunk.js"
   },
   {
-    "revision": "2ab58486b7cf7fefb896",
-    "url": "/darkhorse-coder/darkhors.github.io/static/js/main.d347327b.chunk.js"
+    "revision": "b7c967590da913a544f2",
+    "url": "/darkhorse-coder/darkhors.github.io/static/js/main.8a25de0b.chunk.js"
   },
   {
     "revision": "71d1c7c1bf21e25388fe",

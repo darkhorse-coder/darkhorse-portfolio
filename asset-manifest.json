@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/darkhorse-coder/darkhors.github.io/static/css/main.a8054da0.chunk.css",
-    "main.js": "/darkhorse-coder/darkhors.github.io/static/js/main.d347327b.chunk.js",
-    "main.js.map": "/darkhorse-coder/darkhors.github.io/static/js/main.d347327b.chunk.js.map",
+    "main.css": "/darkhorse-coder/darkhors.github.io/static/css/main.0f9bddd1.chunk.css",
+    "main.js": "/darkhorse-coder/darkhors.github.io/static/js/main.8a25de0b.chunk.js",
+    "main.js.map": "/darkhorse-coder/darkhors.github.io/static/js/main.8a25de0b.chunk.js.map",
     "runtime-main.js": "/darkhorse-coder/darkhors.github.io/static/js/runtime-main.4033aa04.js",
     "runtime-main.js.map": "/darkhorse-coder/darkhors.github.io/static/js/runtime-main.4033aa04.js.map",
     "static/js/2.508728a0.chunk.js": "/darkhorse-coder/darkhors.github.io/static/js/2.508728a0.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/4.5cebbdf4.chunk.js": "/darkhorse-coder/darkhors.github.io/static/js/4.5cebbdf4.chunk.js",
     "static/js/4.5cebbdf4.chunk.js.map": "/darkhorse-coder/darkhors.github.io/static/js/4.5cebbdf4.chunk.js.map",
     "index.html": "/darkhorse-coder/darkhors.github.io/index.html",
-    "precache-manifest.3ceff76943deeca0f654ecdd1723f743.js": "/darkhorse-coder/darkhors.github.io/precache-manifest.3ceff76943deeca0f654ecdd1723f743.js",
+    "precache-manifest.f07388979f3ee2cb3328d6a3727d6550.js": "/darkhorse-coder/darkhors.github.io/precache-manifest.f07388979f3ee2cb3328d6a3727d6550.js",
     "service-worker.js": "/darkhorse-coder/darkhors.github.io/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/darkhorse-coder/darkhors.github.io/static/css/3.00373544.chunk.css.map",
     "static/css/4.a922a401.chunk.css.map": "/darkhorse-coder/darkhors.github.io/static/css/4.a922a401.chunk.css.map",
-    "static/css/main.a8054da0.chunk.css.map": "/darkhorse-coder/darkhors.github.io/static/css/main.a8054da0.chunk.css.map",
+    "static/css/main.0f9bddd1.chunk.css.map": "/darkhorse-coder/darkhors.github.io/static/css/main.0f9bddd1.chunk.css.map",
     "static/media/index.css": "/darkhorse-coder/darkhors.github.io/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/codeInLogo.webp": "/darkhorse-coder/darkhors.github.io/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMail.webp": "/darkhorse-coder/darkhors.github.io/static/media/contactMail.68e84138.webp",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.4033aa04.js",
     "static/js/2.508728a0.chunk.js",
-    "static/css/main.a8054da0.chunk.css",
-    "static/js/main.d347327b.chunk.js"
+    "static/css/main.0f9bddd1.chunk.css",
+    "static/js/main.8a25de0b.chunk.js"
   ]
 }
