@@ -3,7 +3,9 @@
   font-weight: 400;
   line-height: normal;
 }
-
+.project-wrapper {
+  margin-top: 0 !important;
+}
 .startup-project-text img{
   max-width: 100%;
   height: auto;

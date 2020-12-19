@@ -148,7 +148,11 @@ const techStack = {
       progressPercentage: "98%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Mobile(iOS, Android)",
+      Stack: "iOS (iPhone,iPad,iPod touch)",
+      progressPercentage: "94%"
+    },
+    {
+      Stack: "Android",
       progressPercentage: "90%"
     },
     {
@@ -316,7 +320,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
+  number: "+86 13130208605",
   email_address: "dmytrolee@yandex.ru"
 };
 
