@@ -19,7 +19,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/darkhorse-coder",
   linkedin: "https://www.linkedin.com/in/dmytro-lee",
-  gmail: "dmytrolee@yandex.ru",
+  gmail: "dmytro.lee.dev@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/8645651/darkhorse"
   // Instagram and Twitter are also supported in the links!
 };
@@ -27,11 +27,11 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I do?",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly performance and interactive ios/android applications such as Lifestyle, Social Media, Utility, Games/Entertainment, Productivity, News/Information Outlets"),
-    emoji("⚡ Resonsive Web site & Progressive Web applications ( PWA ) in normal and SPA Stacks by ME(A,R,V)N such as social media system, ecommerce system, real estate system, rental system etc."),
+    emoji("⚡ Responsive Web site & Progressive Web applications ( PWA ) in normal and SPA Stacks by ME(A,R,V)N such as social media system, ecommerce system, real estate system, rental system etc."),
     emoji("⚡ Integration of third party services such as Firebase, AWS, Azure, Twilio, Socket.io, Stripe, Paypal etc.")
   ],
 
@@ -175,9 +175,9 @@ const workExperiences = {
       date: "2016 – 2020",
       desc: "Development and improvement for Multipurpose Orering System",
       descBullets: [
-        "Replaced and upgraded with RestAPI / NodeJS, ExpressJS, MongoDB, Postgresql, Javascript for ordering/delivery/business apps",
-        "Development flexible and easily renewable Front-end components, multi & single vendor ordering web site and admin dashboard for business(restaurant, store, laundary store etc.)",
-        "Integrated Google maps and services, firebase, push notification, payment gateway such as Strip, Paypal, Openpay, Interswitch etc"
+        "Replaced and upgraded RestAPI by Node/ExpressJS, MongoDB, Postgresql and Javascript for ordering/delivery/business apps",
+        "Development flexible and easily renewable Front-end components, multi & single vendor ordering web site and admin dashboard for business(restaurant, store, laundry store, etc.)",
+        "Integrated Google map services, firebase, push notification, payment gateway such as Stripe, Paypal, Openpay, Interswitch, etc"
       ]
     },
     {
@@ -188,7 +188,7 @@ const workExperiences = {
       desc: "Develp and improvement of Ordering / Delivery / Business manager apps",
       descBullets: [
         "Developed and improved Multipurpose Native and Hybrid Ordering apps",
-        "Developed Delivery/Driver apps can compatible with Existing Ordering System",
+        "Developed Delivery/Driver apps that can compatible with Existing Ordering System",
         "Developed Orders and Drivers managing applications for business managers"
       ]
     },
@@ -213,7 +213,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken: "4171d98badc40be36cecd25aa34214d364bf3131", //process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "darkhorse-coder", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
@@ -321,7 +321,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+86 13130208605",
-  email_address: "dmytrolee@yandex.ru"
+  email_address: "dmytro.lee.dev@gmail.com"
 };
 
 //Twitter Section
