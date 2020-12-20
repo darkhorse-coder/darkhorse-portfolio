@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.a452d0d7.chunk.css",
-    "main.js": "/static/js/main.e46df092.chunk.js",
-    "main.js.map": "/static/js/main.e46df092.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d2e80ebf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d2e80ebf.js.map",
+    "main.js": "/static/js/main.84de9948.chunk.js",
+    "main.js.map": "/static/js/main.84de9948.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e99bdaf1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e99bdaf1.js.map",
     "static/js/2.508728a0.chunk.js": "/static/js/2.508728a0.chunk.js",
     "static/js/2.508728a0.chunk.js.map": "/static/js/2.508728a0.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
     "static/js/3.641af22e.chunk.js": "/static/js/3.641af22e.chunk.js",
     "static/js/3.641af22e.chunk.js.map": "/static/js/3.641af22e.chunk.js.map",
-    "static/css/4.a922a401.chunk.css": "/static/css/4.a922a401.chunk.css",
+    "static/css/4.5ad4affb.chunk.css": "/static/css/4.5ad4affb.chunk.css",
     "static/js/4.5cebbdf4.chunk.js": "/static/js/4.5cebbdf4.chunk.js",
     "static/js/4.5cebbdf4.chunk.js.map": "/static/js/4.5cebbdf4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fcf4e941cd3a85be397caba26d5af6bf.js": "/precache-manifest.fcf4e941cd3a85be397caba26d5af6bf.js",
+    "precache-manifest.9ec5dc8f2dac3f1f26d579b3806f10d4.js": "/precache-manifest.9ec5dc8f2dac3f1f26d579b3806f10d4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
-    "static/css/4.a922a401.chunk.css.map": "/static/css/4.a922a401.chunk.css.map",
+    "static/css/4.5ad4affb.chunk.css.map": "/static/css/4.5ad4affb.chunk.css.map",
     "static/css/main.a452d0d7.chunk.css.map": "/static/css/main.a452d0d7.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
@@ -46,9 +46,9 @@
     "static/media/universityLogo.png": "/static/media/universityLogo.50b23f7b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2e80ebf.js",
+    "static/js/runtime-main.e99bdaf1.js",
     "static/js/2.508728a0.chunk.js",
     "static/css/main.a452d0d7.chunk.css",
-    "static/js/main.e46df092.chunk.js"
+    "static/js/main.84de9948.chunk.js"
   ]
 }
