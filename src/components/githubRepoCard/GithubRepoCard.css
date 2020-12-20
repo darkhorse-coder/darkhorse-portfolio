@@ -58,6 +58,7 @@
   letter-spacing: -0.5px;
   overflow: hidden;
   margin: 0px;
+  line-height: 1.4;
 }
 
 .repo-star-svg {

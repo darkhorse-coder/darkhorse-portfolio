@@ -173,7 +173,7 @@ const workExperiences = {
       company: "Ordering Co Ltd",
       companylogo: require("./assets/images/orderingLogo.png"),
       date: "2016 – 2020",
-      desc: "Development and improvement for Multipurpose Orering System",
+      desc: "Development and improvement for Multipurpose Ordering System",
       descBullets: [
         "Replaced and upgraded RestAPI by Node/ExpressJS, MongoDB, Postgresql and Javascript for ordering/delivery/business apps",
         "Development flexible and easily renewable Front-end components, multi & single vendor ordering web site and admin dashboard for business(restaurant, store, laundry store, etc.)",
