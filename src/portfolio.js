@@ -10,7 +10,8 @@ const greeting = {
   username: "Dmytro Lee",
   title: "Hi all, I'm Dmytro",
   subTitle: emoji("🚀 Software Engineer with 9 plus years of experience in requirement gathering, designing, developing, implementing, debugging, testing & deployment of Android/iOS applications, Java applications, and Web applications. Extensive experience in developing and managing Enterprise Segment as well as Public Segment Projects. Self-motivated and fast learner developer looking for position for another career."),
-  resumeLink: "https://drive.google.com/file/d/1aVQYOzOEmRBZ5yIIjD7XR5qMotYsWmhf/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1L8IOoVT0hiPRvw1A5uzKTYoZtbfWF0E8/view?usp=sharing",
+  resumeLink2: "https://drive.google.com/file/d/1-_upms45ZKinLfoJzfxi75U-SkhQcbU5/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -145,19 +146,19 @@ const techStack = {
   experience: [
     {
       Stack: "Front-end/UI",  //Insert stack or technology you have experience in
-      progressPercentage: "98%"  //Insert relative proficiency in percentage
+      progressPercentage: "100%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "iOS (iPhone,iPad,iPod touch)",
-      progressPercentage: "94%"
+      progressPercentage: "96%"
     },
     {
       Stack: "Android",
-      progressPercentage: "90%"
+      progressPercentage: "92%"
     },
     {
       Stack: "Back-end",
-      progressPercentage: "85%"
+      progressPercentage: "90%"
     }
   ]
 };
@@ -320,7 +321,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+86 13130208605",
+  number: "+380 91 481 9201",
   email_address: "dmytro.lee.dev@gmail.com"
 };
 
