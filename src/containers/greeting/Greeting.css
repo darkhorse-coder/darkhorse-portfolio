@@ -94,6 +94,7 @@
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   .greeting-text {
     font-size: 30px;
