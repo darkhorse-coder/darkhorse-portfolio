@@ -246,11 +246,11 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Rental Website",
-      subtitle: "MEAN Stack",
-      image: require("./assets/images/portfolio/rental-web.jpg"),
+      title: "Shopping & Delivery",
+      subtitle: "VueJS, Laravel, PorsgreSQl",
+      image: require("./assets/images/portfolio/ecommerce.jpg"),
       footerLink: [
-        { name: "Live Demo", url: "https://staging.roomsie.com/" }
+        { name: "Live Demo", url: "https://www.asianfoodgrocer.com/" }
       ]
     },
     {

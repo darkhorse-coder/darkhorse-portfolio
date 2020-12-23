@@ -19,7 +19,6 @@ import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
 import { educationInfo } from "../portfolio";
-import ClientTalk from "./clientTalk/ClientTalk";
 
 export default class Main extends Component {
   constructor(props) {
@@ -53,7 +52,7 @@ export default class Main extends Component {
           {/* <StartupProject /> */}
           <Achievement />
           {/* <Talks /> */}
-          <Blogs />
+          {/* <Blogs /> */}
           {/* <Twitter /> */}
           {/* <Podcast /> */}
           <Profile />
