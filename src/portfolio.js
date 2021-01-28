@@ -10,8 +10,8 @@ const greeting = {
   username: "Dmytro Lee",
   title: "Hi all, I'm Dmytro",
   subTitle: emoji("🚀 Software Engineer with 9 plus years of experience in requirement gathering, designing, developing, implementing, debugging, testing & deployment of Android/iOS applications, Java applications, and Web applications. Extensive experience in developing and managing Enterprise Segment as well as Public Segment Projects. Self-motivated and fast learner developer looking for position for another career."),
-  resumeLink: "https://drive.google.com/file/d/1L8IOoVT0hiPRvw1A5uzKTYoZtbfWF0E8/view?usp=sharing",
-  resumeLink2: "https://drive.google.com/file/d/1-_upms45ZKinLfoJzfxi75U-SkhQcbU5/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1tdvQNkw09Jf9Fuxkb7dVAb70XV2cWguV/view?usp=sharing",
+  resumeLink2: "https://drive.google.com/file/d/1O1NiIz_9aT5FaY-7zt5dlUFF7WP6gAjG/view?usp=sharing"
 };
 
 // Your Social Media Link
