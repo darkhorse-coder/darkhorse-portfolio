@@ -255,17 +255,17 @@ const achievementSection = {
     },
     {
       title: "Ordering Website",
-      subtitle: "Foot ordering / management system",
-      image: require("./assets/images/portfolio/ordering-mean.jpg"),
+      subtitle: "Food ordering, management system having websites, ios, android apps, used of 1k+ businesses",
+      image: require("./assets/images/portfolio/ordering.jpg"),
       footerLink: [{ name: "Live Demo", url: "https://ordering.co" }]
     },
 
     {
-      title: "E-commerce Stack Websites",
-      subtitle: "Completed for PWA Web App Development",
-      image: require("./assets/images/portfolio/ecommerce-web.jpg"),
+      title: "Healthcare System",
+      subtitle: "Personalized workouts, Oriented to your objectives, Guided by experts, 30K+ members",
+      image: require("./assets/images/portfolio/fitness.jpg"),
       footerLink: [
-        { name: "Live Demo", url: "https://staging.roomsie.com/" }
+        { name: "Live Demo", url: "https://www.fitemos.com/" }
       ]
     }
   ]
