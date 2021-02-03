@@ -40,9 +40,6 @@ function Header() {
             <a href="#achievements">Portfolio</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
             <a href="#contact">Contact Me</a>
           </li>
           <li>
