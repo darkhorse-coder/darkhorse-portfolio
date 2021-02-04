@@ -254,7 +254,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Ordering Website",
+      title: "Ordering System",
       subtitle: "Food ordering, management system having websites, ios, android apps, used of 1k+ businesses",
       image: require("./assets/images/portfolio/ordering.jpg"),
       footerLink: [{ name: "Live Demo", url: "https://ordering.co" }]
