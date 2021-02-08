@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Dmytro Lee",
   title: "Hi all, I'm Dmytro",
-  subTitle: emoji("🚀 Software Engineer with 9 plus years of experience in requirement gathering, designing, developing, implementing, debugging, testing & deployment of Android/iOS applications, Java applications, and Web applications. Extensive experience in developing and managing Enterprise Segment as well as Public Segment Projects. Self-motivated and fast learner developer looking for position for another career."),
+  subTitle: emoji("🚀 Software Engineer with 9 plus years of experience in requirement gathering, designing, developing, implementing, debugging, testing & deployment of Android/iOS applications and Web applications. Extensive experience in developing and managing Enterprise Segment as well as Public Segment Projects. Self-motivated and fast learner developer looking for position for another career."),
   resumeLink: "https://drive.google.com/file/d/1tdvQNkw09Jf9Fuxkb7dVAb70XV2cWguV/view?usp=sharing",
   resumeLink2: "https://drive.google.com/file/d/1O1NiIz_9aT5FaY-7zt5dlUFF7WP6gAjG/view?usp=sharing"
 };
