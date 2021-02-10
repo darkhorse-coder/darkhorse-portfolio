@@ -145,19 +145,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Front-end/UI",  //Insert stack or technology you have experience in
+      Stack: "Front-end/UI (React,Angular,Vue,Storyboard,Xml,SwiftUI)",  //Insert stack or technology you have experience in
       progressPercentage: "100%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "iOS (iPhone,iPad,iPod touch)",
+      Stack: "iOS/Android (Swift/Objective-c,Java/Kotlin,React-Native,Ionic)",
       progressPercentage: "96%"
     },
     {
-      Stack: "Android",
-      progressPercentage: "92%"
-    },
-    {
-      Stack: "Back-end",
+      Stack: "Back-end (Nodejs,JavaString,PHP)",
       progressPercentage: "90%"
     }
   ]
