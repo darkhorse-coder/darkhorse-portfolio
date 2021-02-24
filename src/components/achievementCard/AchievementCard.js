@@ -1,5 +1,6 @@
 import React from "react";
 import "./AchievementCard.css";
+import AchievementModal from '../achievementModal';
 
 export default function AchievementCard({ cardInfo, isDark }) {
   function openUrlInNewTab(url) {
@@ -7,33 +8,24 @@ export default function AchievementCard({ cardInfo, isDark }) {
     win.focus();
   }
 
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+  
+  const openModal = () => {
+    setIsOpen(true);
+  }
+
   return (
-    <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
+    <>
+    <div className={isDark ? "dark-mode certificate-card" : "certificate-card"} onClick={openModal}>
       <div className="certificate-image-div">
-        <img src={cardInfo.image} alt="PWA" className="card-image"></img>
-      </div>
-      <div className="certificate-detail-wrapper">
-        <div className="certificate-detail-div">
-          <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
-            {cardInfo.title}
-          </h5>
-          <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
-            {cardInfo.description}
-          </p>
-        </div>
-        <div className="certificate-card-footer">
-          {cardInfo.footer.map((v, i) => {
-            return (
-              <span
-                class={isDark ? "dark-mode certificate-tag" : "certificate-tag"}
-                onClick={() => openUrlInNewTab(v.url)}
-              >
-                {v.name}
-              </span>
-            );
-          })}
+        <img src={cardInfo.images[0]} alt="PWA" className="card-image"></img>
+        <div className="certificate-image-hover-div">
+          <i className="fa fa-search"></i>
+          <h5 className="title">{cardInfo.title}</h5>
         </div>
       </div>
     </div>
+    <AchievementModal modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} cardInfo={cardInfo} />
+    </>
   );
 }

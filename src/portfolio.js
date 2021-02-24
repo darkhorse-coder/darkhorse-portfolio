@@ -244,22 +244,49 @@ const achievementSection = {
     {
       title: "Shopping & Delivery",
       subtitle: "VueJS, Laravel, PorsgreSQl",
-      image: require("./assets/images/portfolio/ecommerce.jpg"),
+      description: "This is shopping system. Enjoy your visiting.",
+      images:[require("./assets/images/portfolio/ecommerce.jpg"),
+              require("./assets/images/portfolio/ordering.jpg"),
+              require("./assets/images/portfolio/fitness.jpg")
+            ],
+      skills:["Html","CSS5","Bootstrap","Jquery","PHP","Html","CSS5","Bootstrap","Jquery","PHP"],
       footerLink: [
         { name: "Live Demo", url: "https://www.asianfoodgrocer.com/" }
       ]
     },
     {
       title: "Ordering System",
-      subtitle: "Food ordering, management system having websites, ios, android apps, used of 1k+ businesses",
-      image: require("./assets/images/portfolio/ordering.jpg"),
+      subtitle: "Food ordering, management system having websites",
+      description: "This site is Food ordering, management system having websites, ios, android apps, used of 1k+ businesses",
+      images:[require("./assets/images/portfolio/ordering.jpg"),
+              require("./assets/images/portfolio/ecommerce.jpg"),
+              require("./assets/images/portfolio/fitness.jpg")
+            ],
+      skills:["React Js","React Native","API","Web design"],
       footerLink: [{ name: "Live Demo", url: "https://ordering.co" }]
     },
-
     {
       title: "Healthcare System",
       subtitle: "Personalized workouts, Oriented to your objectives, Guided by experts, 30K+ members",
-      image: require("./assets/images/portfolio/fitness.jpg"),
+      description: "This is Personalized workouts, Oriented to your objectives, Guided by experts, 30K+ members",
+      images:[require("./assets/images/portfolio/fitness.jpg"),
+              require("./assets/images/portfolio/ecommerce.jpg"),
+              require("./assets/images/portfolio/ordering.jpg")
+            ],
+      skills:["Node Js","Vue Js","Javascript","Python"],
+      footerLink: [
+        { name: "Live Demo", url: "https://www.fitemos.com/" }
+      ]
+    },
+    {
+      title: "Healthcare System",
+      subtitle: "Personalized workouts, Oriented to your objectives, Guided by experts, 30K+ members",
+      description: "This is Personalized workouts, Oriented to your objectives, Guided by experts, 30K+ members",
+      images:[require("./assets/images/portfolio/fitness.jpg"),
+              require("./assets/images/portfolio/ecommerce.jpg"),
+              require("./assets/images/portfolio/ordering.jpg")
+            ],
+      skills:["Node Js","Vue Js","Javascript","Python"],
       footerLink: [
         { name: "Live Demo", url: "https://www.fitemos.com/" }
       ]
