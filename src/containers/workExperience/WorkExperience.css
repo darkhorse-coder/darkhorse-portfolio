@@ -21,6 +21,47 @@
     flex: 1;
 }
 
+.v-line-dark::before {
+	background: white !important;
+}
+
+.v-line-light::before {
+	background: rgb(211, 211, 211) !important;
+}
+
+.company_name {
+	font-size: 14px;
+}
+
+.vertical-timeline-sub-bullets {
+	font-size: .8rem;
+	margin: 0;
+}
+
+.date-style-dark {
+	color: white;
+	font-weight: bold !important;
+}
+
+.date-style-light {
+	color: black;
+	font-weight: bold !important;
+}
+
+.vertical-timeline-element-content p {
+	margin: .6rem 0 .4rem !important;
+	line-height: 1.2 !important;
+}
+
+.step-icon { 
+	background: 'rgb(170 165 255)';
+	color: '#fff'; 
+	display: "flex"; 
+	justify-content: "center";
+	align-items: "center";
+	font-size: 2rem;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {

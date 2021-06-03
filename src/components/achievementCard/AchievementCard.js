@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./AchievementCard.css";
 import AchievementModal from '../achievementModal';
 
@@ -13,6 +13,10 @@ export default function AchievementCard({ cardInfo, isDark }) {
   const openModal = () => {
     setIsOpen(true);
   }
+
+  useEffect(() => {
+	document.body.style.overflow = modalIsOpen ? 'hidden' : 'unset';
+  }, [modalIsOpen])
 
   return (
     <>

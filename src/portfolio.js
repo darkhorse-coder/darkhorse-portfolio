@@ -166,12 +166,26 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "'MERN' Stack & React-Native Developer",
+      company: "Freelancing Contractor",
+      companylogo: require("./assets/images/orderingLogo.png"),
+      date: "2021 – present",
+      desc: "Mongo, Node-express, React web and React-Native mobile app development",
+		icon: "fab fa-react",
+      descBullets: [
+        "Podcast react native app development",
+        "Food order/delivery REST Api development",
+        "Sales and Shopping application development"
+      ]
+    },
+    {
       role: "Full Stack Developer",
       company: "Ordering Co Ltd",
       companylogo: require("./assets/images/orderingLogo.png"),
       date: "2016 – 2020",
       desc: "Development and improvement for Multipurpose Ordering System",
-      descBullets: [
+      icon: "fab fa-node",
+		descBullets: [
         "Replaced and upgraded RestAPI by Node/ExpressJS, MongoDB, Postgresql and Javascript for ordering/delivery/business apps",
         "Development flexible and easily renewable Front-end components, multi & single vendor ordering web site and admin dashboard for business(restaurant, store, laundry store, etc.)",
         "Integrated Google map services, firebase, push notification, payment gateway such as Stripe, Paypal, Openpay, Interswitch, etc"
@@ -183,7 +197,8 @@ const workExperiences = {
       companylogo: require("./assets/images/orderingLogo.png"),
       date: "2014 – 2016",
       desc: "Develp and improvement of Ordering / Delivery / Business manager apps",
-      descBullets: [
+      icon: "fab fa-apple",
+		descBullets: [
         "Developed and improved Multipurpose Native and Hybrid Ordering apps",
         "Developed Delivery/Driver apps that can compatible with Existing Ordering System",
         "Developed Orders and Drivers managing applications for business managers"
@@ -195,7 +210,8 @@ const workExperiences = {
       companylogo: require("./assets/images/lingtuLogo.png"),
       date: "2011 – 2014",
       desc: "Readily embracing cutting-edge technology, I have gained an in-depth understanding of the main mobile platforms and recognize the subtle differences between each. Having helped develop a series of commercially successful apps on iOS, Android.",
-      descBullets: [
+      icon: "fas fa-mobile-alt",
+		descBullets: [
         "Taxi/location tracking apps",
         "Image processing/sharing apps",
         "Coupon management app, Car selling app",

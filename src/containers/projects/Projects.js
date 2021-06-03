@@ -4,7 +4,7 @@ import { gql } from "apollo-boost";
 import "./Project.css";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
@@ -13,7 +13,7 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  const { isDark } = useContext(StyleConsumer);
+  const { isDark } = useContext(StyleContext);
   useEffect(() => {
     getRepoData();
   }, []);

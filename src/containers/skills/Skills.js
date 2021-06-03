@@ -36,9 +36,10 @@ export default function Skills() {
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills) => {
+              {skillsSection.skills.map((skills, index) => {
                 return (
                   <p
+						  key={`${skills}__${index}`}
                     className={
                       isDark
                         ? "dark-mode subTitle skills-text"

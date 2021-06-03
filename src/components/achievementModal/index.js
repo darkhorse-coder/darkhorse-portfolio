@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Modal from 'react-modal';
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
@@ -29,6 +29,10 @@ function AchievementModal(props) {
         setIsOpen(false);
     }
 
+	 useEffect(() => {
+		 Modal.setAppElement('body');
+	 }, []);
+
     return (
         <Modal
             isOpen={modalIsOpen}
@@ -37,26 +41,26 @@ function AchievementModal(props) {
         >
             <div className="modal-header">
                 <div></div>
-                <div className="modal-close" onClick={closeModal}>X</div>
+                <div className="modal-close" onClick={closeModal}><i className={'fas fa-times'}></i></div>
             </div>
             <div className="modal-title"> {cardInfo.subtitle}</div>
             <div className="modal-main">
                 <div className="modal-main-description">
                     <div className="modal-description">{cardInfo.description}</div>
                     <div className="modal-skills">
-                        {cardInfo.skills.map((skill) => (
-                            skill && <div className="modal-skill-one">{skill}</div>
+                        {cardInfo.skills.map((skill, idx) => (
+                            skill && <div key={idx} className="modal-skill-one">{skill}</div>
                             )
                         )}
                     </div>
-                    <a className="modal-link-button" href={cardInfo.footer[0].url} target="_blank">
+                    <a className="modal-link-button" href={cardInfo.footer[0].url} target={'_blank'}>
                         {cardInfo.footer[0].name}
                     </a>
                 </div>
                 <div className="modal-main-images">
                     <Carousel responsive={responsive}>
-                        {cardInfo.images.map((image) => (
-                            image && <img className="modal-image" src={image} />
+                        {cardInfo.images.map((image, idx) => (
+                            image && <img key={idx} className="modal-image" src={image} alt="" />
                             )
                         )}
                     </Carousel>
