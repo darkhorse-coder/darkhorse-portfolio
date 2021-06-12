@@ -4,7 +4,7 @@
 }
 
 .education-card:hover + .education-card-border {
-  border-color: #a9a7f9;
+  border-color: #a3a3a3;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
@@ -61,7 +61,7 @@
 }
 
 .education-text-duration {
-  color: #000000;
+  color: #000;
   font-size: 19px;
   margin: 0px;
   padding-top: 0.5rem;

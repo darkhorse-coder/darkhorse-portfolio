@@ -26,7 +26,7 @@ export default function WorkExperience() {
 												contentArrowStyle={{ borderRight: isDark ? '7px solid  #ffffff' : '7px solid  #f3f3f3' }}
 												date={exp.date}
 												dateClassName={isDark ? 'date-style-dark' : 'date-style-light'}
-												iconStyle={{ background: 'rgb(170 165 255)', color: '#fff', display: "flex", justifyContent: "center", alignItems: "center", fontSize: 24 }}
+												iconStyle={{ background: 'black', color: '#fff', display: "flex", justifyContent: "center", alignItems: "center", fontSize: 24 }}
 												icon={<i className={exp.icon}></i>}
 											>
 												<h3 className="vertical-timeline-element-title">{exp.role}</h3>

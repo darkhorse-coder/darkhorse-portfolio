@@ -18,12 +18,20 @@
 }
 
 .software-skill-inline > i:hover {
-  color: #645beb;
+  color: #000000;
+}
+
+.dark.software-skill-inline > i:hover {
+  color: #ffffff;
 }
 .software-skill-inline > p {
   color: #868e96;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p{
-  color: #645beb;
+  color: #000000;
+}
+
+.dark.software-skill-inline > i:hover ~ p{
+  color: #ffffff;
 }
